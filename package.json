@@ -1,5 +1,6 @@
 {
   "name": "presentation.college",
+  "homepage": "http://presentation.college/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
