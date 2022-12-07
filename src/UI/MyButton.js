@@ -1,9 +1,9 @@
 import React from 'react'
 import { Button } from '@material-ui/core'
 
-function MyButton() {
+function MyButton(Text) {
   return (
-      <Button>Test</Button>
+      <Button>Text</Button>
   )
 }
 
