@@ -1,15 +1,41 @@
+import React from 'react';
 import MyButton from './UI/MyButton';
 import './App.css';
 import GameName from './UI/GameName';
+import MainText from './UI/MainText.js'
+import Foto1 from './Images/Foto1.png';
+import Foto2 from './Images/Foto2.png';
+import Foto3 from './Images/Foto3.png';
 
 function App() {
   return (
     <div className="App">
-      <h1><GameName></GameName></h1>
-
-      <MyButton></MyButton>
-
-      <p>Nihil nostrum ratione eveniet beatae ipsa. Placeat ipsa aut et suscipit. Enim quia vero provident quia sunt eos nihil recusandae. Voluptatem quis nobis asperiores dolorem sit. Dolores voluptas dicta facere.Perspiciatis est dolorum officia sit incidunt repellendus assumenda. Dolorum est natus ducimus officia officia. Temporibus magni accusamus natus alias excepturi aut tempora. Culpa quos at harum eos distinctio suscipit quae possimus. Ea in aspernatur natus. Eos illo et maiores sed ad libero aut. Minima eveniet facilis vitae similique eaque dignissimos aut rerum. Eos nisi maiores beatae aliquid libero quae minima. Quos consequatur ex exercitationem error laudantium dolore. Sunt fugit ratione voluptas. Sed delectus nulla odio ab dolorum ullam. Pariatur placeat pariatur dolorem veritatis. Voluptatem ut facilis quo cumque. Accusantium dignissimos rerum ut modi commodi tempora voluptatem accusamus. Inventore ab qui dolores assumenda similique. Nulla qui velit quibusdam.</p>
+      <div className="Header">
+        <h1><GameName></GameName></h1> 
+      </div>
+      <div class="Photos">
+        <span id="Slide-1"></span>
+        <span id="Slide-2"></span>
+        <span id="Slide-3"></span>
+        <div class="image-container">
+          <img src={Foto1} alt=""/>
+          <img src={Foto2} alt=""/>
+          <img src={Foto3} alt=""/>
+        </div>
+        <div class="Buttons">
+          <a href="#Slide-1"></a>
+          <a href="#Slide-2"></a>
+          <a href="#Slide-3"></a>
+        </div>
+      </div>
+      <div className="Main">
+        <div className="Menu">
+          <MyButton></MyButton>
+        </div>
+        <div className="Content">
+          <MainText></MainText>
+        </div>
+      </div>
     </div>
   );
 }

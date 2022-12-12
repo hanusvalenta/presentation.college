@@ -3,7 +3,7 @@ import { Button } from '@material-ui/core'
 
 function MyButton(Text) {
   return (
-      <Button>Text</Button>
+      <Button>Button</Button>
   )
 }
 
