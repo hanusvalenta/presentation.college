@@ -54,11 +54,12 @@ h1 {
 }
 
 .Menu {
+  height: 100vh;
   background-color: #282c34;
 }
 
 .Content {
-  height: ;
+  height: 100vh;
   background-color: bisque;
 }
 
