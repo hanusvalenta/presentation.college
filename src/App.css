@@ -25,7 +25,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #ff3f34;
 }
 
 @keyframes App-logo-spin {
@@ -37,14 +37,34 @@
   }
 }
 
+.Head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-style: none none solid none;
+  border-color: #fff;
+}
+
 .Header {
-  width: 100vh;
+  width: 100%;
   height: 25pt;
+  display: flex;
+  justify-content: center;
+  background-color: #ff3f34;
 }
 
 h1 {
   font-size: 15pt;
   margin: 0;
+}
+
+h2 {
+  font-size: 15pt;
+  padding-top: 50vh;
+}
+
+h3 {
+  font-size: 15pt;
 }
 
 .Main {
@@ -54,59 +74,72 @@ h1 {
 }
 
 .Menu {
-  height: 100vh;
-  background-color: #282c34;
+  display: flex;
+  height: auto;
+  width: 18vh;
+  background-color: #ff3f34;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  border-style: solid solid none none;
+  border-color: #fff;
 }
 
 .Content {
-  height: 100vh;
-  background-color: bisque;
+  height: auto;
+  width: 100%;
+  background-color: #ffc048;
+  display: flex;
+  flex-direction: column;
+  border-style: solid none none none;
+  border-color: #fff;
+}
+
+.Content p {
+  padding: 50pt;
 }
 
 .Photos {
-  width: 500px;
-  height: 300px;
-  background-color: yellow;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0px;
-  text-align: center;
-  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  background-color: #ffdd59;
 }
-.image-container {
-  width: 1500px;
-  background-color: pink;
-  height: 300px;
-  clear: both;
-  position: relative;
-  -webkit-transition: left 2s;
-  -moz-transition: left 2s;
-  -o-transition: left 2s;
-  transition: left 2s;
+
+.ImageContainer {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
 }
-.Slide {
-  float: left;
-  margin: 0px;
-  padding: 0px;
-  position: relative;
+
+a.Btn, a.Btn:hover {
+  text-decoration:none;
 }
-#Slide-1:target ~ .image-container {
-  left: 0px;
+
+a.Btn {
+  opacity:1;
+  line-height:1.4;
+  text-align:center;
+  min-width: 50px;
+  font-size: 12px;
+  padding: 10px 20px;
+  color:#fff;
+  font-weight:700;
+  text-transform:uppercase;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display:inline-block;
+  background-color:#d2dae2;
+  border-bottom: 4px solid rgba(0,0,0,0.1);
+  border-radius: 4px;
+
+
+  transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
 }
-#Slide-2:target ~ .image-container {
-  left: -500px;
-}
-#Slide-3:target ~ .image-container {
-  left: -1000px;
-}
-.Buttons {
-  position: relative;
-  top: -20px;
-}
-.Buttons a {
-  display: inline-block;
-  height: 15px;
-  width: 15px;
-  border-radius: 50px;
-  background-color: lightgreen;
+
+a.Btn:hover {
+  opacity:0.6;
 }

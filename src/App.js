@@ -1,39 +1,49 @@
 import React from 'react';
-import MyButton from './UI/MyButton';
 import './App.css';
 import GameName from './UI/GameName';
-import MainText from './UI/MainText.js'
 import Foto1 from './Images/Foto1.png';
 import Foto2 from './Images/Foto2.png';
 import Foto3 from './Images/Foto3.png';
+import About from './Texts/About';
+import Features from './Texts/Features';
+import Optimalization from './Texts/Optimalization';
+import Inspiration from './Texts/Inspiration';
 
 function App() {
   return (
     <div className="App">
-      <div className="Header">
-        <h1><GameName></GameName></h1> 
+      <div className="Head">
+        <div className="Header">
+          <GameName></GameName>
+        </div>
       </div>
       <div class="Photos">
-        <span id="Slide-1"></span>
-        <span id="Slide-2"></span>
-        <span id="Slide-3"></span>
-        <div class="image-container">
+        <div class="ImageContainer">
           <img src={Foto1} alt=""/>
           <img src={Foto2} alt=""/>
           <img src={Foto3} alt=""/>
         </div>
-        <div class="Buttons">
-          <a href="#Slide-1"></a>
-          <a href="#Slide-2"></a>
-          <a href="#Slide-3"></a>
-        </div>
       </div>
       <div className="Main">
         <div className="Menu">
-          <MyButton></MyButton>
+          <a className="Btn" href='#Section1'>
+            About
+          </a>
+          <a className="Btn" href='#Section2'>
+            Features
+          </a>
+          <a className="Btn" href='#Section3'>
+            Optimalization
+          </a>
+          <a className="Btn" href='#Section4'>
+            Inspiration
+          </a>
         </div>
         <div className="Content">
-          <MainText></MainText>
+          <About></About>
+          <Features></Features>
+          <Optimalization></Optimalization>
+          <Inspiration></Inspiration>
         </div>
       </div>
     </div>

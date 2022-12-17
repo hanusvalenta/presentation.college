@@ -2,7 +2,7 @@ import React from 'react'
 
 function GameName() {
   return (
-    "Add game name here"
+    <h1>Add game name here</h1>
   )
 }
 
