@@ -2,7 +2,7 @@ import React from 'react'
 
 function Inspiration() {
   return (
-    <><h2 id="Section4">Inspiration</h2><p>Inspiration</p></>
+    <><h2 id="Section4">Inspirace</h2><p>Můžu vypsat hry a mechaniky které plánuji přidat.</p></>
   )
 }
 
