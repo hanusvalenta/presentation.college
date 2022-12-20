@@ -4,13 +4,13 @@ function MyMenu() {
   return (
     <div className="Menu">
       <><a className="Btn" href='#Section1'>
-        About
+        Konsept
       </a><a className="Btn" href='#Section2'>
-        Features
+        Práce
       </a><a className="Btn" href='#Section3'>
-        Optimalization
+        Shrnutí
       </a><a className="Btn" href='#Section4'>
-        Inspiration
+        Inspirace
       </a></>
     </div>
   )
