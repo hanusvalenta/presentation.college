@@ -2,7 +2,7 @@ import React from 'react'
 
 function GameName() {
   return (
-    <h1>Virulence</h1>
+    <h1>Proj (project)</h1>
   )
 }
 

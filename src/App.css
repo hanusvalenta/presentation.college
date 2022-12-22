@@ -1,3 +1,11 @@
+/* Color scheme */
+:root {
+  --LightRed: #ff3f34;
+  --White: #ffffff;
+  --Gray: rgb(179, 179, 179);
+  --BlackIsh: #181818;
+}
+
 .App {
   text-align: center;
 }
@@ -21,11 +29,11 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: var(--White);
 }
 
 .App-link {
-  color: #ff3f34;
+  color: var(--LightRed);
 }
 
 @keyframes App-logo-spin {
@@ -42,7 +50,7 @@
   flex-direction: row;
   justify-content: space-between;
   border-style: none none solid none;
-  border-color: #fff;
+  border-color: var(--Gray);
 }
 
 .Header {
@@ -50,7 +58,7 @@
   height: 25pt;
   display: flex;
   justify-content: center;
-  background-color: #ff3f34;
+  background-color: var(--LightRed);
 }
 
 h1 {
@@ -85,22 +93,22 @@ h4 {
   display: flex;
   height: auto;
   width: 18vh;
-  background-color: #ff3f34;
+  background-color: var(--LightRed);
   flex-direction: column;
   flex-wrap: nowrap;
   align-items: center;
   border-style: solid solid none none;
-  border-color: rgb(179, 179, 179);
+  border-color: var(--Gray);
 }
 
 .Content {
   height: auto;
   width: 100%;
-  background-color: #ffffff;
+  background-color: var(--White);
   display: flex;
   flex-direction: column;
   border-style: solid none none none;
-  border-color: #fff;
+  border-color: var(--Gray);
 }
 
 .Content p {
@@ -112,7 +120,8 @@ h4 {
 .Photos {
   width: auto;
   height: auto;
-  background-color: #ffffff;
+  background-color: var(--White);
+  overflow: hidden;
 }
 
 .ImageContainer {
@@ -138,13 +147,13 @@ a.Btn {
   min-width: 50px;
   font-size: 12px;
   padding: 10px 20px;
-  color:#fff;
+  color:var(--White);
   font-weight:700;
   text-transform:uppercase;
   margin-top: 10px;
   margin-bottom: 10px;
   display:inline-block;
-  background-color:#181818;
+  background-color:var(--BlackIsh);
   border-bottom: 4px solid rgba(0,0,0,0.1);
   border-radius: 4px;
 
