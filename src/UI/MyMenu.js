@@ -4,10 +4,10 @@ function MyMenu() {
   return (
     <div className="Menu">
       <><a className="Btn" href='#Section1'>
-        Konsept
+        Koncept
       </a>
       <a className="Btn" href='#Section2'>
-        Práce
+        Vlastnosti
       </a>
       <a className="Btn" href='#Section3'>
         Shrnutí

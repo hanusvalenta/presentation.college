@@ -4,8 +4,7 @@ function Optimalization() {
   return (
     <><h2 id="Section3">Shrnutí</h2>
     <p>
-      Při práci na tomto projektu jsem se dozvěděl spoustu novích věcí o unreal engine zejména o fungování replikace a zejména multiplayeru.
-      
+      Při práci na tomto projektu jsem se dozvěděl spoustu nových věcí o unreal engine a zejména o fungování replikace a multiplayeru.
     </p></>
   )
 }

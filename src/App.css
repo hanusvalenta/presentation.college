@@ -67,6 +67,13 @@ h1 {
   font-weight: 900;
 }
 
+br {
+  content: "";
+  margin: 0px;
+  display: block;
+  font-size: 24%;
+}
+
 h2 {
   font-size: 15pt;
   padding-top: 25vh;
@@ -81,6 +88,7 @@ h3 {
 
 h4 {
   font-size: 12pt;
+  padding-top: 10vh;
 }
 
 .Main {
