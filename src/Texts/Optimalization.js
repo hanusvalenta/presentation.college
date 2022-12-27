@@ -4,7 +4,7 @@ function Optimalization() {
   return (
     <><h2 id="Section3">Shrnutí</h2>
     <p>
-      Tuto práci jsem započal za učelem nabrání nových znalostí ohledně Unreal Engine a zejména multiplayerových funkcí ve hrách. Dozvěděl jsem se že hry takto fungující vyžadují zcela jiný přístup a to k všemu. A že implementování jakékoliv funkce vyžaduje o mnoho více úsilí.
+      Tuto hru jsem se rozhodl vyvíjet proto, abych se zdokonalil v práci s Unreal Engine a v implementaci multiplayerových funkcí ve hrách. Jako inspirace mi sloužila hra Red Faction a její přístup k interakci hráče a prostředí. Dozvěděl jsem se, že vývoj těchto funkcí vyžaduje zcela jiný přístup než u klasických her - například fungování zbraní, ale i základních objektů. Celkově byl dosud vývoj této hry v porovnání s ostaními projekty o mnoho složitější, ale o to víc mě bavil.
     </p></>
   )
 }
