@@ -111,6 +111,7 @@ h4 {
 
 .Buttons {
   position: fixed;
+  position: -webkit-sticky;
 }
 
 .Content {
