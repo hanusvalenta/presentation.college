@@ -109,6 +109,10 @@ h4 {
   border-color: var(--Gray);
 }
 
+.Buttons {
+  position: fixed;
+}
+
 .Content {
   height: auto;
   width: 100%;

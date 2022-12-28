@@ -3,7 +3,8 @@ import React from 'react'
 function MyMenu() {
   return (
     <div className="Menu">
-      <><a className="Btn" href='#Section1'>
+      <div className='Buttons'>
+        <><a className="Btn" href='#Section1'>
         Koncept
       </a>
       <a className="Btn" href='#Section2'>
@@ -12,6 +13,7 @@ function MyMenu() {
       <a className="Btn" href='#Section3'>
         Shrnutí
       </a></>
+      </div>
     </div>
   )
 }
